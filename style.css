@@ -1,0 +1,246 @@
+@import "null.css";
+
+@import url('https://fonts.googleapis.com/css2?family=Comforter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Stick&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Cormorant+Unicase:600,700&display=swap");
+
+@font-face {
+	font-family: "ClarencePro";
+	src: url("fonts/ClarencePro-006.woff2") format("woff2"), url("fonts/ClarencePro-006.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Kuloneth";
+	src: url("fonts/KulonethRegular.woff2") format("woff2"), url("fonts/KulonethRegular.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "NedLTStd";
+	src: url("fonts/NedLTStd.woff2") format("woff2"), url("fonts/NedLTStd.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+	padding: 20px;
+	background: url(img/piramida_fon.jpg) fixed;
+	background-size: 100px;
+}
+
+.background {
+	max-width: 1250px;
+	background: linear-gradient(90deg, #fcff9e 0%, #c67700 100%);
+	margin: 0 auto;
+	text-indent: 30px;
+	box-shadow: 0px 30px 60px 30px rgb(0, 0, 0);
+}
+
+.header {
+	font-family: "Kuloneth";
+	font-size: 100px;
+	color: black;
+	text-align: center;
+	min-height: 300px;
+	padding: 30px;
+	background: url(img/header.jpg) fixed;
+	margin-bottom: 20px;
+}
+
+.header::before {
+	content: "";
+	display: block;
+	height: 8px;
+	width: 30%;
+	margin: 0 auto;
+	margin-bottom: 10px;
+	background-color: rgb(17, 17, 16);
+	/* text-align: center; */
+}
+
+.header::after {
+	content: "";
+	display: block;
+	height: 8px;
+	width: 30%;
+	margin: 0 auto;
+	margin-top: 30px;
+	background-color: rgb(17, 17, 16);
+	/* padding-bottom: 20px; */
+} 
+
+.p-1 {
+	font-size: 20px;
+	min-width: 1000px;
+	padding: 10px 10px 10px 10px;
+	border: 1px solid black;
+	margin: 0px 20px 20px 20px;
+	box-shadow: 0px 30px 60px 30px rgb(11, 190, 214);
+}
+
+.p-1:hover {
+	background-color: rgb(173, 173, 173);
+}
+
+.p-2 {
+	font-size: 20px;
+	min-width: 1000px;
+	padding: 10px 10px 10px 10px;
+	border: 1px solid black;
+	margin: 0px 20px 20px 20px;
+	box-shadow: 0px 30px 60px 30px rgb(0, 0, 0);
+}
+
+.p-2:hover {
+	background-color: rgb(173, 173, 173);
+}
+
+.img {
+	background: url(img/Isez.gif), url(img/robo.jpg);
+	background-repeat: no-repeat;
+	background-position: right bottom, 100% 100%;
+	background-size: 100px, cover;
+	min-height: 801px;
+	font-family: "Kuloneth";
+	font-size: 100px;
+	color: black;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.img-2 {
+	background: url(img/Isez.gif) bottom repeat-x, url(img/piramida1.jpg) 100% / cover no-repeat;
+	background-size: 100px, cover;
+	min-height: 801px;
+	margin: 0px 10px 10px 10px;
+	border: 1px solid black;
+	border-radius: 10px;
+}
+
+.img-3 {
+	background: url(img/Isez.gif) 270px 300px/100px no-repeat, url(img/Isez.gif) 890px 490px/50px no-repeat, url(img/3piramids.jpg) 100% / cover no-repeat;
+	/* background-size: 100px, cover; */
+	min-height: 800px;
+}
+
+.p-3 {
+	width: 600px;
+	margin: 10px 20px 0px auto;
+	/* padding-top: 10px; */
+	text-align: left;
+}
+
+.p-3:hover {
+	background-color: rgba(173, 173, 173, 0.397);
+}
+
+h2 {
+	font-family: "Kuloneth";
+	font-size: 100px;
+	color: black;
+	text-align: center;
+	padding: 20px;
+}
+
+h3 {
+	font-family: "Kuloneth";
+	font-size: 70px;
+	color: black;
+	text-align: right;
+	padding-top: 20px; 
+	padding-right: 20px;
+}
+
+a {
+	display: block;
+	background: linear-gradient(90deg, #f8ff00 0%, #3ad59f 100%);
+	width: 600px;
+	height: 70px;
+	font-size: 30px;
+	color: black;
+	border: 5px solid black;
+	border-radius: 10px;
+	margin: 0 auto;
+	margin-top: 20px;
+	text-align: center;
+	padding: 20px;
+}
+
+a:hover {
+	display: block;
+	background: linear-gradient(90deg, #f8ff00 0%, #3ad59f 100%);
+	width: 600px;
+	height: 70px;
+	font-size: 30px;
+	color: black;
+	border: 5px solid black;
+	border-radius: 20px;
+	margin: 0 auto;
+	margin-top: 20px;
+	text-align: center;
+	padding: 20px;
+	box-shadow: 15px 15px 15px 15px rgba(43, 255, 0, 0.459);
+	font-family: 'Cormorant';
+	font-weight: 700;
+}
+
+.text-block p:nth-of-type(odd) {
+	background: linear-gradient(90deg, #fcff9e 0%, #e4af61 100%);
+}
+
+.text-block {
+	font-size: 20px;
+	min-width: 1000px;
+	padding: 10px 10px 10px 10px;
+	border: 1px solid black;
+	margin: 20px 20px 20px 20px;
+	border-radius: 20px;
+}
+
+.text-block::first-line {
+	color: red;
+	font-family: 'Cormorant';
+	font-weight: 700;
+}
+
+.text-block::before {
+	content: "ИТАК";
+}
+
+.text-block::after {
+	content: "ВОТ ТАК";
+}
+
+.text-block-2 {
+	font-size: 20px;
+	min-width: 1000px;
+	padding: 10px 10px 10px 10px;
+	border: 3px solid rgb(196, 98, 98);
+	margin: 20px 20px 20px 20px;
+	border-radius: 20px;
+}
+
+.text-block-2::first-letter {
+	color: red;
+	font-family: 'Cormorant';
+	font-weight: 700;
+}
+
+.text-block-2 p:nth-child(2) {
+	background: linear-gradient(90deg, #e2e2d8 0%, #b474b6 100%);
+	border-radius: 20px;
+}
+
+.text-block *:last-child {
+	border: 1px solid rgb(22, 219, 193);
+	border-radius: 10px;
+	background-color: rgba(94, 165, 153, 0.671);
+}
